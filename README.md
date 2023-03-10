@@ -6,4 +6,7 @@ To start the server, run `npm start` in the terminal. This will start the server
 
 Please note that you should have Node.js installed in your machine to be able to execute these commands.
 
+This project was done as an activity in the Udacity full stack javascript course.
+
 Best regards, Lucas.
+
