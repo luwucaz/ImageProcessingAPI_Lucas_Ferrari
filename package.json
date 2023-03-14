@@ -1,0 +1,36 @@
+{
+  "name": "novoprojeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon dist/app.js",
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "test": "ts-node node_modules/jasmine/bin/jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.15.0",
+    "@types/sharp": "^0.31.1",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "eslint": "^8.35.0",
+    "jasmine": "^4.5.0",
+    "nodemon": "^2.0.21",
+    "prettier": "2.8.4",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "sharp": "^0.31.3"
+  }
+}
